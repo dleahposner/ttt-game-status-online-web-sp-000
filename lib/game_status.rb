@@ -54,7 +54,7 @@ end
 
 def winner(board)
   combo = won?(board)
-  if combo == [0,4,8]
+  if combo 
     return "X"
     elsif combo == [1,4,7]
     return "O"
